@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Weather Ui</title>
+    <!-- bootstrapcss -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesomecdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* .parent {
+            height: 100vh;
+            width: auto;
+            background-color: rgb(8, 244, 244);
+        }
+
+        .child1 {
+            height: 90vh;
+            width: 60%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 23%;
+            top: 6%;
+        }
+
+        .head1 {
+            background-color: rgb(61, 60, 60);
+            position: absolute;
+            width: 100%;
+            bottom: 98%;
+            height: 4%;
+        }
+
+        p {
+            position: absolute;
+            color: rgb(146, 142, 142);
+            font-size: xx-large;
+            font-weight: bolder;
+            bottom: -90%;
+
+        }
+
+        .state {
+            color: grey;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: auto;
+            bottom: 80%;
+        } */
+        .pragya {
+            background-color: black;
+            color: rgb(169, 167, 167);
+            font-size: xx-large;
+            font-weight: bold;
+            width: 103%;
+            margin-left: -1rem;
+            line-height: 30px;
+
+        }
+
+        .main {
+            background-color: aqua;
+            height: 100vh;
+            width: 100%;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            padding-top: 8%;
+        }
+
+        .container {
+            background-color: white;
+            height: 60vh;
+            width: 70%;
+
+
+        }
+
+        .p-t-20 {
+            padding-top: 10%;
+        }
+
+        .lst {
+            padding-top: 20%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <div class="parent">
+        <div class="child1">
+            <div class="head1">
+                <p>...</p>
+            </div>
+            <div class="state">
+                <h6>Right now in<b> Ahmedabad </b>,it's mostly cloudy.</h6>
+            </div>
+            <div class="middle">
+                <i class="fa-solid fa-cloud-moon"></i>
+                <h4>-66</h4>-74/-53
+                <ul>
+                    <li><i class="fa-solid fa-cloud-bolt"></i>13m</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <div class="main">
+
+        <div class="container  ">
+            <div class="pragya">
+                <p>...</p>
+            </div>
+            <div class="row p-t-20 ">
+                <div class="col-3"></div>
+                <div class="col-6">
+
+                    <span>Right now in Germany, its mostly cloudy</span>
+                    <div class="row">
+                        <div class="col-4" style="font-size: xx-large; line-height: 80px;">
+                            <i class="fa-solid fa-sun fa-2xl"></i>
+                        </div>
+                        <div class="col-4" style="margin: auto;">
+                            <div>64</div>
+                            <div>69 <sup>0</sup> / 100 <sup>0</sup></div>
+                        </div>
+                        <div class="col-4">
+                            <div>
+                                <span><i class="fa-solid fa-wind fa-xs"></i></span> <span>8</span><span>mph</span>
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-umbrella fa-flip-horizontal"></i></span>
+                                <span>0</span><span>%</span>
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-droplet"></i></span> <span>30</span><span>%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" lst>
+                        <div class="col-3">
+                            <div>
+                                <i class="fa-solid fa-cloud-bolt"></i>
+                            </div>
+                            <div>
+                                <span>70 <sup>0</sup>/103 <sup>0</sup></span>
+                            </div>
+                            <div>
+                                <span>Tom</span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div>
+                                <i class="fa-solid fa-cloud-bolt"></i>
+                            </div>
+                            <div>
+                                <span>72 <sup>0</sup>/105 <sup>0</sup></span>
+                            </div>
+                            <div>
+                                <span>Tom</span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div>
+                                <i class="fa-solid fa-cloud-bolt"></i>
+                            </div>
+                            <div>
+                                <span>71 <sup>0</sup>/104 <sup>0</sup></span>
+                            </div>
+                            <div>
+                                <span>Thur</span>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div>
+                                <i class="fa-solid fa-cloud-bolt"></i>
+                            </div>
+                            <div>
+                                <span>75 <sup>0</sup>/100 <sup>0</sup></span>
+                            </div>
+                            <div>
+                                <span>wed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
